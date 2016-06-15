@@ -4,14 +4,15 @@
  * Author URL: http://graphberry.com
  * License: http://graphberry.com/pages/license
  */
- 
+ /*@import url(https://fonts.googleapis.com/css?family=Karla);*/
+
 body{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 }
 
 p, input, textarea{
-	font-family: 'Lora', serif;
+	font-family: 'Karla';
 }
 
 /****************
