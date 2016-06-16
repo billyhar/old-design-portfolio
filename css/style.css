@@ -405,8 +405,6 @@ ul.social-icons > li > a{
 }
 
 ul.social-icons:hover{
-	background: #fff;
-	color: #00AAA0;
 	border-color: #00AAA0;
 }
 
