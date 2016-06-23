@@ -13,6 +13,7 @@ body{
 
 p, input, textarea{
 	font-family: 'Karla';
+	font-weight: 300;
 }
 
 /****************
