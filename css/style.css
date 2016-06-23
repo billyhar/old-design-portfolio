@@ -7,13 +7,14 @@
  /*@import url(https://fonts.googleapis.com/css?family=Karla);*/
 
 body{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
+	font-weight: 300;
 }
 
 p, input, textarea{
-	font-family: 'Karla';
-	font-weight: 300;
+	font-family: 'Lato';
+
 }
 
 /****************
