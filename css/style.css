@@ -9,11 +9,12 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
-	font-weight: 300;
+	
 }
 
 p, input, textarea{
 	font-family: 'Lato';
+	font-weight: 200;
 
 }
 
