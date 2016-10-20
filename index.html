@@ -12,8 +12,22 @@
     <link rel="stylesheet" type="text/css" href="assets/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <!-- JS Scripts -->
+<script>
+//paste this code under the head tag or in a separate js file.
+  // Wait for window load
+  $(window).load(function() {
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");;
+  });
+</script>
+
   </head>
+
   <body>
+  <div class="se-pre-con"></div>
     <div id="loading"></div>
     <div class="wrapper">
       <div id="side-menu">
@@ -243,6 +257,6 @@
     <script src="assets/js/contact.js"></script>
     <script src="assets/js/validator.js"></script>
     <script src="assets/js/custom.js"></script>
-    <!-- JS Scripts -->
+
   </body>
 </html>
