@@ -73,6 +73,12 @@ table {
 	border-spacing: 0;
 }
 
+.bgimage{
+background-image: url("../images/HERO_bg.jpg");
+width: 100%;
+background-repeat: no-repeat;
+
+}
 
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
@@ -784,7 +790,7 @@ html, body {
 }
 
 .main .intro {
-	padding: 120px 10px 100px 10px;
+	padding: 180px 50px 250px 100px;
 }
 
 .main .intro img {
@@ -795,7 +801,7 @@ html, body {
 	font-family: 'Poppins';
 	font-size: 14px;
 	font-weight: 600;
-	color: #A1A1A1;
+	color: #303030;
 	letter-spacing: 3px;
 	line-height: 1.4;
 	text-transform: uppercase;
