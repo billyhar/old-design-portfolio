@@ -72,9 +72,46 @@
           <div class="container">
             <div class="project-intro">
               <div class="col-md-6">
-                  <h1 class="wow fadeInUp" data-wow-delay= ".1s"> Our Backyard Collection Logo Re-Design </h1>
+                  <h1 class="wow fadeInUp" data-wow-delay= ".1s"> Gocation</h1>
                   <p class="wow fadeInUp" data-wow-delay= ".2s">
-                   This is a project I have completed for a client, looking to extend his business. I designed the logo using Adobe Illustrator and Photoshop. The task was to design a new logo for a new section of the business. The section focussed around domestic tourism in New Zealand. It's name is Our Backyard Collection. This logo is now being used on many promotional material such as tea-towels, aprons and on the clients website.
+                    Gocation is an Android app that uses low energy bluetooth technology to trace and track
+                    the whereabouts of festival or large event attendees. It works by monitoring the
+                    movements of users with beacons then sending notifications to other users of their
+                    current location. Beacons can be placed at all major points of interest around the event/s.
+                    For example, at a festival there will be beacons placed at the main entrance, entrances to
+                    all stages, toilets, bar and food entrances etc.
+                    The issue was discovered from personal experiences of losing friends at large events. The
+                    target audience for this project is people between the ages of 18 and 30 who attend large
+                    events and festivals.
+                  </p>
+
+                  <p class="wow fadeInUp" data-wow-delay= ".2s">
+                    Backend of the app
+                  </p>
+
+                  <p class="wow fadeInUp" data-wow-delay= ".2s">
+                    Facebook Auth Login <br>
+                    Firebase Database <br>
+                    When a user logs in to the app, they login through their Facebook
+                    account and accept the permissions. The permissions are access
+                    to:<br>
+                    - Public Profile (Profile Image etc.)<br>
+                    - Full Name<br>
+                    - Email Address<br>
+                    - Gender<br>
+                    The Facebook data is then stored in Firebase under the userid child
+                    There is also a lastSeenAt child which is where last beacon detection
+                    of that particular user is stored.
+                  </p>
+
+                  <p class="wow fadeInUp" data-wow-delay= ".2s">
+                    <strong>Messaging</strong>
+                  </p>
+                  <p class="wow fadeInUp" data-wow-delay= ".2s">
+                    Our app also has a realtime inbuilt messaging app, utilising the
+                    features of Firebase. Everyone who has joined the app is able to
+                    send a group message to everyone else within the app. Everyone
+                    else will also get a push notification when this is complete.
 
                   </p>
                 </div>
@@ -82,20 +119,74 @@
                   <div class="details">
                     <h2 class="wow fadeInUp" data-wow-delay= ".3s">Project Details</h2>
                     <ul>
-                      <li class="wow fadeInUp" data-wow-delay= ".4s"><span>Client:</span> Go Conference & Incentive</li>
-                      <li class="wow fadeInUp" data-wow-delay= ".5s"><span>Type:</span>Logo, Branding</li>
-                      <li class="wow fadeInUp" data-wow-delay= ".6s"><span>Role:</span> Creative Head</li>
-                      <li class="wow fadeInUp" data-wow-delay= ".7s"><span>Date:</span> April 2016</li>
-                      <li class="wow fadeInUp" data-wow-delay= ".8s"><span>Website:</span><a href="http://www.ourbackyardcollection.co.nz" target="_blank">OBC.co.nz</a></li>
+                      <li class="wow fadeInUp" data-wow-delay= ".4s"><span>Client:</span> Myself</li>
+                      <li class="wow fadeInUp" data-wow-delay= ".5s"><span>Type:</span>UI/UX Design</li>
+                      <li class="wow fadeInUp" data-wow-delay= ".6s"><span>Role:</span>Project Manager and Design Lead</li>
+                      <li class="wow fadeInUp" data-wow-delay= ".7s"><span>Date:</span> April 2017</li>
+                      <li class="wow fadeInUp" data-wow-delay= ".8s"><span>Website:</span><a href="http://www.billyhar.com/Gocation" target="_blank">Gocation Promo Site</a></li>
+                      <li class="wow fadeInUp" data-wow-delay= ".8s"><span>Android Source Code:</span><a href="https://github.com/billyhar/Gocation-Android-Final" target="_blank">Android Source on Github</a></li>
+                      <li class="wow fadeInUp" data-wow-delay= ".8s"><span>IOS Swift 3 Source Code:</span><a href="https://github.com/billyhar/GocationIOS" target="_blank">IOS Source on Github</a></li>
+
                     </ul>
+                    <br>
+                    <br>
+                    <br>
+                    <p class="wow fadeInUp" data-wow-delay= ".2s">
+                      <strong>Beacons and Notifications</strong>
+                    </p>
+                    <p class="wow fadeInUp" data-wow-delay= ".2s">
+                      The main feature of our app is beacon triggered push notifications.
+When one user passes an identified beacon, every other user in the
+firebase gets a push notification of their activity. The push
+notification is not given to the user that is passing the beacon.
+The notifications are triggered by changes in the firebase data and
+are updated on the main screen underneath the user’s name.
+                    </p>
+                    <br>
+                    <br>
+                    <p class="wow fadeInUp" data-wow-delay=".2s">
+                      SOS feature
+                    </p>
+                    <p class="wow fadeInUp" data-wow-delay= ".2s">
+                      As an extra feature, we have also added an SOS swipe feature. It
+                      works by sending a push notification to everyone else in the database
+                      when it is swiped. The idea behind this feature was if people were
+                      lost or in trouble, they could trigger the SOS switch to send an
+                      urgent notification to their friends via the chat feature.
+                      The swipe function is situated on the user profile so it is easily
+                      accessible in an emergency. The swipe action is better then a button
+                      because it is much less likely to be accidently activated.
+                    </p>
                   </div>
                 </div>
               </div>
               <div class="col-md-12">
+                <div class="details">
+                  <ul>
+                  <li class="wow fadeInUp" data-wow-delay= ".4s"> User Interface Mockups </li>
+                </ul>
+                </div>
                 <div class="project-image wow fadeInUp" data-wow-delay= ".9s">
                   <img class="img-responsive" src="assets/images/project2.jpg" alt="Project" />
                 </div>
-                
+                <div class="project-image wow fadeInUp" data-wow-delay= ".9s">
+                  <img class="img-responsive" src="assets/images/project2a.jpg" alt="Project" />
+                </div>
+
+                <br>
+                <br>
+                <div class="details">
+                  <ul>
+                  <li class="wow fadeInUp" data-wow-delay= ".4s"> Developed User Interface Mockups </li>
+                </ul>
+                </div>
+                <div class="project-image wow fadeInUp" data-wow-delay= ".9s">
+                  <img class="img-responsive" src="assets/images/project2c.jpg" alt="Project" />
+                </div>
+                <div class="project-image wow fadeInUp" data-wow-delay= ".9s">
+                  <img class="img-responsive" src="assets/images/project2b.jpg" alt="Project" />
+                </div>
+
 
                 <div class="project-quote text-center">
                   <div class="inner">
