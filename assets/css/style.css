@@ -77,6 +77,7 @@ table {
 background-image: url("../images/HERO_bg.jpg");
 width: 100%;
 background-repeat: no-repeat;
+background-size: cover;
 
 }
 
