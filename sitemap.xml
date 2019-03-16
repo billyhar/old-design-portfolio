@@ -6,68 +6,72 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
-  <loc>http://www.billyhar.com/</loc>
-  <lastmod>2017-01-09T23:13:02+00:00</lastmod>
+  <loc>https://www.billyhar.online/</loc>
+  <lastmod>2019-03-10T09:35:06+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.billyhar.com/index.html</loc>
-  <lastmod>2017-01-09T23:13:02+00:00</lastmod>
+  <loc>https://www.billyhar.online/index.html</loc>
+  <lastmod>2019-03-10T09:35:06+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.billyhar.com/about.html</loc>
-  <lastmod>2017-01-09T23:13:02+00:00</lastmod>
+  <loc>https://www.billyhar.online/about.html</loc>
+  <lastmod>2019-03-10T09:35:06+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.billyhar.com/portfolio-nav.html</loc>
-  <lastmod>2017-01-09T23:13:02+00:00</lastmod>
+  <loc>https://www.billyhar.online/portfolio-nav.html</loc>
+  <lastmod>2019-03-10T09:35:06+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.billyhar.com/contact.html</loc>
-  <lastmod>2017-01-09T23:13:02+00:00</lastmod>
+  <loc>https://www.billyhar.online/contact.html</loc>
+  <lastmod>2019-03-10T09:35:06+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.billyhar.com/project1.html</loc>
-  <lastmod>2017-01-09T23:13:02+00:00</lastmod>
+  <loc>https://www.billyhar.online/project1.html</loc>
+  <lastmod>2019-03-10T09:35:06+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.billyhar.com/project2.html</loc>
-  <lastmod>2017-01-09T23:13:02+00:00</lastmod>
+  <loc>https://www.billyhar.online/project2.html</loc>
+  <lastmod>2019-03-10T09:35:06+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.billyhar.com/project3.html</loc>
-  <lastmod>2017-01-09T23:13:02+00:00</lastmod>
+  <loc>https://www.billyhar.online/project3.html</loc>
+  <lastmod>2019-03-10T09:35:06+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.billyhar.com/project5.html</loc>
-  <lastmod>2017-01-09T23:13:02+00:00</lastmod>
+  <loc>https://www.billyhar.online/project5.html</loc>
+  <lastmod>2019-03-10T09:35:06+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.billyhar.com/project6.html</loc>
-  <lastmod>2017-01-09T23:13:02+00:00</lastmod>
+  <loc>https://www.billyhar.online/project6.html</loc>
+  <lastmod>2019-03-10T09:35:06+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.billyhar.com/project4.html</loc>
-  <lastmod>2017-01-09T23:13:02+00:00</lastmod>
+  <loc>https://www.billyhar.online/project4.html</loc>
+  <lastmod>2019-03-10T09:35:06+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.billyhar.com/project.html</loc>
-  <lastmod>2017-01-09T23:13:02+00:00</lastmod>
+  <loc>https://www.billyhar.online/project.html</loc>
+  <lastmod>2019-03-10T09:35:06+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.billyhar.com/handfulofinteractions/</loc>
-  <lastmod>2017-01-09T04:37:32+00:00</lastmod>
+  <loc>https://www.billyhar.online/portfolio.html</loc>
+  <lastmod>2019-03-10T09:35:06+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
-<url>
-  <loc>http://www.billyhar.com/portfolio.html</loc>
-  <lastmod>2017-01-09T23:13:02+00:00</lastmod>
-</url>
-<url>
-  <loc>http://www.billyhar.com/handfulofinteractions/index.html</loc>
-  <lastmod>2017-01-09T04:37:32+00:00</lastmod>
-</url>
-<url>
-  <loc>http://www.billyhar.com/handfulofinteractions/secondpage.html</loc>
-  <lastmod>2017-01-09T04:37:32+00:00</lastmod>
-</url>
+
+
 </urlset>
