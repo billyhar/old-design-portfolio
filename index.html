@@ -50,21 +50,18 @@
 
 
 <script>
-(function(){
-      var words = [
-          'Digital Designer',
-          'Explorer',
-          'Skiier',
-          'Traveller',
-          'Technology Enthusiast',
-          ], i = 0;
-      setInterval(function(){
-          $('#changingword').fadeOut(function(){
-              $(this).html(words[i=(i+1)%words.length]).fadeIn();
-          });
-      }, 3500);
+$(function() {
+    var words = ['Designer', 'Creator'],
+        index = 0,
+        $el = $('#changingword')
+    setInterval(function() {
+        index++ < words.length - 1 || (index = 0);
+        $el.fadeOut(function() {
+            $el.text(words[index]).fadeIn();
+        });
+    }, 5000);
+});
 
-  })();
 </script>
 
   </head>
@@ -129,7 +126,7 @@
       <div class="intro text-center">
           <img style="margin-top:-5%" class="wow fadeInUp" data-wow-delay= ".1s" src="assets/images/logo.png" width="60" height="60" alt="Logo" />
           <h4 class="wow fadeInUp" data-wow-delay= ".2s">Imagineer based in Melbourne, Australia</h4>
-          <h1 class="wow fadeInUp" data-wow-delay= ".3s">Billy Harris<br class="hidden-xs hidden-sm"><span class="wow fadeInUp" data-wow-delay =".3s" id="changingword">Digital Designer</span><br class="hidden-xs hidden-sm"> with a passion for innovation
+          <h1 class="wow fadeInUp" data-wow-delay= ".3s">Billy Harris<br class="hidden-xs hidden-sm">Digital <span class="wow fadeInUp" data-wow-delay =".3s" id="changingword">Designer</span><br class="hidden-xs hidden-sm"> with a passion for innovation
            <!-- <br class="hidden-xs hidden-sm"> -->
          </h1>
             <a href="portfolio-nav.html" class="btn btn-action wow fadeInUp" data-wow-delay= ".4s">See My stuff!</a>
